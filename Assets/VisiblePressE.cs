@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class VisiblePressE : MonoBehaviour
 {
@@ -39,6 +40,10 @@ public class VisiblePressE : MonoBehaviour
     {
         if (current != null && Input.GetKey(KeyCode.E))
         {
+            if (current.tag == "NEWGAME")
+            {
+                SceneManager.LoadScene(1);
+            }
             if (current == this)
             {
                 health.AddHP();
