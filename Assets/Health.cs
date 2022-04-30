@@ -13,9 +13,15 @@ public class Health : MonoBehaviour
         health = 0.25f;
     }
 
+    public void AddHP()
+    {
+        health += 0.5f;
+    }
+
     void Update()
     {
-        health -= 0.0001f;
+        if (health > 0)
+            health -= 0.0001f;
         slider.value = health;
     }
 }
