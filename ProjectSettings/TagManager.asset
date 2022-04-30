@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Fire
   - PressE
+  - Door
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Door
   - Water
   - UI
   - 
