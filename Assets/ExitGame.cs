@@ -8,7 +8,7 @@ public class ExitGame : MonoBehaviour
 {
    
     public void OnTriggerEnter2D(){
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
 
     }
 }
