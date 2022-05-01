@@ -30,4 +30,9 @@ public class Health : MonoBehaviour
 
         slider.value = health;
     }
+
+    public void Damege()
+    {
+        health -= 0.2f;
+    }
 }
