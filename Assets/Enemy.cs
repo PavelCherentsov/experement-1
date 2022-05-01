@@ -24,6 +24,7 @@ public class Enemy : MonoBehaviour
 
     void Die(){
         animator.SetBool("IsDead", true);
+        new WaitForSeconds(1);
         Destroy(gameObject);
     }
 
