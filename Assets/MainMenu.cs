@@ -10,6 +10,6 @@ public class MainMenu : MonoBehaviour
     }
 
     public void ExitGame(){
-        SceneManager.LoadScene("Initial");
+        SceneManager.LoadScene(0);
     }
 }
