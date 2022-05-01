@@ -42,7 +42,7 @@ public class VisiblePressE : MonoBehaviour
         {
             if (current.tag == "NEWGAME")
             {
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene("Level01");
             }
             if (current == this)
             {
